@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
+
+<link rel="stylesheet" href="./css/style.min.css">
+<meta name="description" content="Put your description here.">
+</head>
+
+<body>
+	<main class="main">
+		<aside class="aside">
+			<div class="aside-wrapper">
+				<div class="main-logo">
+					<img src="./img/main-logo.svg" alt="Main logo">
+					<span class="text">v.01</span>
+				</div>
+				<nav class="aside-nav">
+					<ul>
+						<li>
+							<a class="router-link wave-hover" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-key"></use>
+								</svg>
+								<span class="text">Dashboard</span>
+							</a>
+						</li>
+						<li>
+							<a class="router-link wave-hover" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-box"></use>
+								</svg>
+								<span class="text">Product</span>
+								<svg class="svg-icon custom">
+									<use xlink:href="#icon-right"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="router-link wave-hover active" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-user"></use>
+								</svg>
+								<span class="text">Customers</span>
+								<svg class="svg-icon custom">
+									<use xlink:href="#icon-right"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="router-link wave-hover" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-wallet"></use>
+								</svg>
+								<span class="text">Income</span>
+								<svg class="svg-icon custom">
+									<use xlink:href="#icon-right"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="router-link wave-hover" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-discount"></use>
+								</svg>
+								<span class="text">Promote</span>
+								<svg class="svg-icon custom">
+									<use xlink:href="#icon-right"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="router-link wave-hover" href="#!">
+								<svg class="svg-icon">
+									<use xlink:href="#icon-help"></use>
+								</svg>
+								<span class="text">Help</span>
+								<svg class="svg-icon custom">
+									<use xlink:href="#icon-right"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="user-block">
+					<div class="logo">
+						<img src="./img/user-logo.jpg" alt="User photo">
+					</div>
+					<div class="user-info">
+						<p class="title">Evano</p>
+						<p class="text">Project Manager</p>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header-wrapper">
+					<h1 class="main-title anim-x">Hello Evano 👋🏼</h1>
+					<div class="burger">
+						<div class="burger-wrap">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="section">
+				<div class="container">
+					<div class="section-wrapper">
+						<div class="section-top">
+							<div class="text-group">
+								<h2 class="title anim-x">All Customers</h2>
+								<p class="text mark anim-x">Active Members</p>
+							</div>
+							<div class="search anim-x">
+								<form class="search-wrapper" action="#!">
+									<button type="submit" aria-label="Submit button">
+										<svg class="svg-icon">
+											<use xlink:href="#icon-search"></use>
+										</svg>
+									</button>
+									<input type="text" placeholder="Search">
+								</form>
+							</div>
+						</div>
+						<div class="table">
+							<table>
+								<thead>
+									<tr>
+										<th class="anim-y">Customer Name</th>
+										<th class="anim-y">Company</th>
+										<th class="anim-y">Phone Number</th>
+										<th class="anim-y">Email</th>
+										<th class="anim-y">Country</th>
+										<th class="anim-y">Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button  wave-hover is-green">Active</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button  wave-hover is-red">Inactive</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-green">Active</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-red">Inactive</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-green">Active</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-red">Inactive</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-green">Active</span>
+										</td>
+									</tr>
+									<tr class="anim-x">
+										<td>Jane Cooper</td>
+										<td>Microsoft</td>
+										<td>(225) 555-0118</td>
+										<td>jane@microsoft.com</td>
+										<td>United States</td>
+										<td>
+											<span class="button wave-hover is-red">Inactive</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="section-bottom anim-x">
+							<p class="text">Showing data 1 to 8 of 256K entries</p>
+							<div class="pagination">
+      <ul>
+            <li class="first">&lt;</li>
+            <li class="active">1</li>
+            <li>3</li>
+            <li>4</li>
+            <li class="dots">...</li>
+            <li>40</li>
+            <li class="last">&gt;</li>
+      </ul>
+</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</main>
+
+	<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="icon-box" viewBox="0 0 32 32">
+      <path
+        d="M20.465 32h-8.93c-8.082 0-11.535-3.453-11.535-11.535v-8.93c0-8.082 3.453-11.535 11.535-11.535h8.93c8.082 0 11.535 3.453 11.535 11.535v8.93c0 8.082-3.453 11.535-11.535 11.535zM11.535 2.233c-6.861 0-9.302 2.441-9.302 9.302v8.93c0 6.861 2.441 9.302 9.302 9.302h8.93c6.861 0 9.302-2.441 9.302-9.302v-8.93c0-6.861-2.441-9.302-9.302-9.302h-8.93z">
+      </path>
+      <path
+        d="M16.001 17.607c-0.194 0-0.387-0.045-0.566-0.149l-7.888-4.554c-0.536-0.313-0.714-0.997-0.402-1.518 0.313-0.536 0.997-0.714 1.518-0.402l7.323 4.242 7.278-4.212c0.536-0.313 1.22-0.119 1.518 0.402s0.119 1.22-0.402 1.518l-7.829 4.525c-0.164 0.089-0.357 0.149-0.551 0.149z">
+      </path>
+      <path
+        d="M16 25.704c-0.61 0-1.116-0.506-1.116-1.116v-8.097c0-0.61 0.506-1.116 1.116-1.116s1.116 0.506 1.116 1.116v8.097c0 0.61-0.506 1.116-1.116 1.116z">
+      </path>
+      <path
+        d="M16 26.046c-0.863 0-1.711-0.194-2.396-0.566l-4.763-2.649c-1.429-0.789-2.53-2.679-2.53-4.316v-5.046c0-1.622 1.116-3.513 2.53-4.316l4.763-2.649c1.369-0.759 3.423-0.759 4.792 0l4.763 2.649c1.429 0.789 2.53 2.679 2.53 4.316v5.046c0 1.622-1.116 3.513-2.53 4.316l-4.763 2.649c-0.685 0.387-1.533 0.566-2.396 0.566zM16 8.186c-0.491 0-0.967 0.089-1.31 0.283l-4.763 2.649c-0.729 0.402-1.384 1.533-1.384 2.352v5.046c0 0.833 0.655 1.95 1.384 2.352l4.763 2.649c0.685 0.387 1.935 0.387 2.62 0l4.763-2.649c0.729-0.402 1.384-1.533 1.384-2.352v-5.046c0-0.833-0.655-1.95-1.384-2.352l-4.763-2.649c-0.342-0.194-0.819-0.283-1.31-0.283z">
+      </path>
+    </symbol>
+    <symbol id="icon-discount" viewBox="0 0 32 32">
+      <path
+        d="M16 31.978c-0.938 0-1.816-0.357-2.471-1.027l-2.262-2.262c-0.179-0.179-0.655-0.372-0.893-0.372h-3.215c-1.935 0-3.498-1.563-3.498-3.498v-3.215c0-0.238-0.193-0.714-0.372-0.893l-2.262-2.262c-0.655-0.655-1.027-1.533-1.027-2.471s0.357-1.816 1.027-2.471l2.262-2.262c0.179-0.179 0.372-0.655 0.372-0.893v-3.215c0-1.935 1.563-3.498 3.498-3.498h3.215c0.238 0 0.714-0.194 0.893-0.372l2.262-2.262c1.31-1.31 3.632-1.31 4.941 0l2.262 2.262c0.179 0.179 0.655 0.372 0.893 0.372h3.215c1.935 0 3.498 1.563 3.498 3.498v3.215c0 0.238 0.194 0.714 0.372 0.893l2.262 2.262c0.655 0.655 1.027 1.533 1.027 2.471s-0.357 1.816-1.027 2.471l-2.262 2.262c-0.179 0.179-0.372 0.655-0.372 0.893v3.215c0 1.935-1.563 3.498-3.498 3.498h-3.215c-0.238 0-0.714 0.194-0.893 0.372l-2.262 2.262c-0.655 0.67-1.533 1.027-2.471 1.027zM4.867 19.133c0.595 0.595 1.027 1.637 1.027 2.471v3.215c0 0.7 0.566 1.265 1.265 1.265h3.215c0.833 0 1.875 0.431 2.471 1.027l2.262 2.262c0.476 0.476 1.31 0.476 1.786 0l2.262-2.262c0.595-0.595 1.637-1.027 2.471-1.027h3.215c0.7 0 1.265-0.566 1.265-1.265v-3.215c0-0.833 0.432-1.875 1.027-2.471l2.262-2.262c0.238-0.238 0.372-0.551 0.372-0.893s-0.134-0.655-0.372-0.893l-2.262-2.262c-0.595-0.595-1.027-1.637-1.027-2.471v-3.215c0-0.7-0.566-1.265-1.265-1.265h-3.215c-0.833 0-1.875-0.432-2.471-1.027l-2.262-2.262c-0.476-0.476-1.31-0.476-1.786 0l-2.262 2.262c-0.595 0.595-1.637 1.027-2.471 1.027h-3.215c-0.7 0-1.265 0.566-1.265 1.265v3.215c0 0.833-0.432 1.875-1.027 2.471l-2.262 2.262c-0.238 0.238-0.372 0.551-0.372 0.893s0.134 0.655 0.372 0.893l2.262 2.262z">
+      </path>
+      <path
+        d="M20.465 21.931c-0.833 0-1.503-0.67-1.503-1.488s0.67-1.488 1.488-1.488c0.819 0 1.488 0.67 1.488 1.488s-0.655 1.488-1.474 1.488z">
+      </path>
+      <path
+        d="M11.55 13.001c-0.833 0-1.503-0.67-1.503-1.488s0.67-1.488 1.488-1.488c0.819 0 1.488 0.67 1.488 1.488s-0.655 1.488-1.473 1.488z">
+      </path>
+      <path
+        d="M11.534 21.558c-0.283 0-0.566-0.104-0.789-0.327-0.432-0.432-0.432-1.146 0-1.578l8.93-8.93c0.432-0.432 1.146-0.432 1.578 0s0.432 1.146 0 1.578l-8.93 8.93c-0.223 0.223-0.506 0.327-0.789 0.327z">
+      </path>
+    </symbol>
+    <symbol id="icon-help" viewBox="0 0 32 32">
+      <path
+        d="M10.046 31.353c-0.417 0-0.848-0.104-1.235-0.313-0.848-0.447-1.369-1.34-1.369-2.292v-2.113c-4.495-0.461-7.442-3.766-7.442-8.499v-8.93c0-5.12 3.438-8.558 8.558-8.558h14.884c5.12 0 8.558 3.438 8.558 8.558v8.93c0 5.12-3.438 8.558-8.558 8.558h-5.611l-6.34 4.227c-0.432 0.283-0.938 0.431-1.444 0.431zM8.558 2.865c-3.84 0-6.326 2.486-6.326 6.326v8.93c0 3.84 2.486 6.326 6.326 6.326 0.61 0 1.116 0.506 1.116 1.116v3.17c0 0.194 0.119 0.283 0.194 0.327s0.223 0.089 0.387-0.015l6.623-4.406c0.179-0.119 0.402-0.194 0.625-0.194h5.953c3.84 0 6.326-2.486 6.326-6.326v-8.93c0-3.84-2.486-6.326-6.326-6.326h-14.899z">
+      </path>
+      <path
+        d="M16 16.156c-0.61 0-1.116-0.506-1.116-1.116v-0.313c0-1.726 1.265-2.575 1.741-2.902 0.551-0.372 0.729-0.625 0.729-1.012 0-0.744-0.61-1.354-1.354-1.354s-1.354 0.61-1.354 1.354c0 0.61-0.506 1.116-1.116 1.116s-1.116-0.506-1.116-1.116c0-1.98 1.607-3.587 3.587-3.587s3.587 1.608 3.587 3.587c0 1.697-1.25 2.545-1.712 2.858-0.58 0.387-0.759 0.64-0.759 1.057v0.313c0 0.625-0.506 1.116-1.116 1.116z">
+      </path>
+      <path
+        d="M16 19.863c-0.625 0-1.116-0.506-1.116-1.116s0.506-1.116 1.116-1.116c0.61 0 1.116 0.506 1.116 1.116s-0.491 1.116-1.116 1.116z">
+      </path>
+    </symbol>
+    <symbol id="icon-key" viewBox="0 0 32 32" fill="none">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M11.5 31h9c7.5 0 10.5-3 10.5-10.5v-9c0-7.5-3-10.5-10.5-10.5h-9c-7.5 0-10.5 3-10.5 10.5v9c0 7.5 3 10.5 10.5 10.5z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+        d="M22.42 18.415c-1.695 1.695-4.125 2.22-6.27 1.545l-3.885 3.87c-0.27 0.285-0.825 0.465-1.23 0.405l-1.8-0.24c-0.6-0.075-1.14-0.645-1.23-1.23l-0.24-1.8c-0.060-0.39 0.135-0.945 0.405-1.23l3.87-3.87c-0.66-2.145-0.15-4.575 1.545-6.27 2.43-2.43 6.39-2.43 8.835 0 2.43 2.415 2.43 6.375 0 8.82z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+        d="M13.675 22.42l-1.275-1.29"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+        d="M18.092 14.050h0.014"></path>
+    </symbol>
+    <symbol id="icon-right" viewBox="0 0 32 32" fill="none">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4"
+        d="M9.625 28.75l12.75-12.75-12.75-12.75"></path>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 32 32" fill="none">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+        d="M14.389 27.278c7.118 0 12.889-5.77 12.889-12.889s-5.77-12.889-12.889-12.889c-7.118 0-12.889 5.771-12.889 12.889s5.771 12.889 12.889 12.889z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+        d="M30.5 30.5l-7.008-7.008"></path>
+    </symbol>
+    <symbol id="icon-user" viewBox="0 0 32 32" fill="none">
+      <path
+        d="M20.483 31.5h-8.964c-1.972 0-3.615-0.194-5.005-0.613-0.508-0.149-0.837-0.642-0.807-1.165 0.373-4.467 4.9-7.978 10.294-7.978s9.905 3.496 10.294 7.978c0.045 0.538-0.284 1.016-0.807 1.165-1.389 0.418-3.033 0.613-5.005 0.613zM8.113 28.975c0.986 0.194 2.107 0.284 3.406 0.284h8.964c1.3 0 2.42-0.090 3.406-0.284-0.792-2.868-4.064-4.99-7.888-4.99s-7.096 2.122-7.888 4.99z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M20.482 0.5h-8.964c-7.47 0-10.458 2.988-10.458 10.458v8.964c0 5.647 1.703 8.74 5.767 9.89 0.329-3.884 4.318-6.947 9.173-6.947s8.844 3.063 9.173 6.947c4.064-1.15 5.767-4.243 5.767-9.89v-8.964c0-7.47-2.988-10.458-10.458-10.458zM16 18.682c-2.958 0-5.348-2.405-5.348-5.363s2.39-5.348 5.348-5.348c2.958 0 5.348 2.39 5.348 5.348s-2.39 5.363-5.348 5.363z">
+      </path>
+      <path
+        d="M16 19.802c-3.571 0-6.469-2.913-6.469-6.484s2.898-6.469 6.469-6.469c3.571 0 6.469 2.898 6.469 6.469s-2.898 6.484-6.469 6.484zM16 9.090c-2.331 0-4.228 1.897-4.228 4.228 0 2.346 1.897 4.243 4.228 4.243s4.228-1.897 4.228-4.243c0-2.331-1.897-4.228-4.228-4.228z">
+      </path>
+    </symbol>
+    <symbol id="icon-wallet" viewBox="0 0 32 32" fill="none">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M14.138 22.132v3.029c0 2.566-2.387 4.64-5.326 4.64s-5.341-2.074-5.341-4.64v-3.029c0 2.566 2.387 4.386 5.341 4.386 2.939 0 5.326-1.835 5.326-4.386z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M14.135 18.029c0 0.746-0.209 1.432-0.567 2.029-0.88 1.447-2.685 2.357-4.774 2.357s-3.894-0.925-4.774-2.357c-0.358-0.597-0.567-1.283-0.567-2.029 0-1.283 0.597-2.432 1.552-3.267 0.97-0.85 2.297-1.358 3.774-1.358s2.805 0.522 3.775 1.358c0.985 0.82 1.581 1.984 1.581 3.267z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M14.138 18.029v4.103c0 2.566-2.387 4.386-5.326 4.386s-5.341-1.835-5.341-4.386v-4.103c0-2.566 2.387-4.64 5.341-4.64 1.477 0 2.805 0.522 3.775 1.358 0.955 0.835 1.552 1.999 1.552 3.282z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M30.919 13.344v3.073c0 0.82-0.656 1.492-1.492 1.522h-2.924c-1.611 0-3.088-1.179-3.222-2.79-0.090-0.94 0.268-1.82 0.895-2.432 0.552-0.567 1.313-0.895 2.148-0.895h3.103c0.835 0.030 1.492 0.701 1.492 1.522z">
+      </path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2"
+        d="M1.081 12.643v-2.984c0-4.058 2.447-6.893 6.251-7.37 0.388-0.060 0.791-0.090 1.208-0.090h13.427c0.388 0 0.761 0.015 1.119 0.075 3.849 0.448 6.34 3.297 6.34 7.385v2.163h-3.103c-0.835 0-1.596 0.328-2.148 0.895-0.627 0.612-0.985 1.492-0.895 2.432 0.134 1.611 1.611 2.79 3.223 2.79h2.924v2.163c0 4.476-2.984 7.459-7.459 7.459h-3.73">
+      </path>
+    </symbol>
+  </defs>
+</svg>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
